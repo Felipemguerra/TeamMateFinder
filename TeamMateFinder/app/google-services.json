@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200726297932",
+    "firebase_url": "https://teammate-finder-15edf.firebaseio.com",
+    "project_id": "teammate-finder-15edf",
+    "storage_bucket": "teammate-finder-15edf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200726297932:android:259edf10417b544c",
+        "android_client_info": {
+          "package_name": "edu.fsu.cs.mobile.teammatefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200726297932-qb280vsbrp33a9kccukgvvdka4p8h99p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.fsu.cs.mobile.teammatefinder",
+            "certificate_hash": "04176a4757efe72a979e4407337b421c6f3019ab"
+          }
+        },
+        {
+          "client_id": "200726297932-gccsnjfn6b53da709dacfqe4nfravtvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfnR2Qf-YjXUmTdvSqOq4KP6XD-aq3XNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200726297932-gccsnjfn6b53da709dacfqe4nfravtvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

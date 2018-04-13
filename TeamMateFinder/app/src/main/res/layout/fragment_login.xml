@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.fsu.cs.mobile.teammatefinder.Login">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="384dp"
+        android:layout_height="511dp">
+
+        <EditText
+            android:id="@+id/LoginEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="101dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/LoginPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/LoginEmail"
+            android:layout_below="@+id/LoginEmail"
+            android:layout_marginTop="37dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/LoginPass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toStartOf="@+id/createAcc"
+                app:layout_constraintStart_toStartOf="@+id/createAcc">
+
+                <Button
+                    android:id="@+id/Login"
+                    android:layout_width="150dp"
+                    android:layout_height="44dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="2dp"
+                    android:text="Login"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/createAcc"
+                    app:layout_constraintEnd_toStartOf="@+id/createAcc"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/createAcc"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="145dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Create Account"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Login"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>
